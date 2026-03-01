@@ -147,7 +147,7 @@
     url(../images/bg-gerl-botton.png),
     url(../images/bg-gerl.png),
     url(../images/bg-gerl2.png);
-    ;
+    
 
     background-repeat: 
     no-repeat, 
@@ -297,12 +297,15 @@
     border-radius: 20px;
 }
 
-.swiper-slide__img {
-    max-width: 361px;
-    max-height: 512px;
+.slide__card-img{
+    max-width: 461px;
     width: 100%;
     height: 100%;
-    display: block;
+}
+
+.swiper-slide__img {
+    width: 100%;
+    height: 100%;
 }
 
 .slide__card-text{
@@ -471,7 +474,100 @@
     .prepay-link .price {
         font-size: 15px;
     }
+
+    .section2-wrapper {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .section2__left-list {
+        width: 90%;
+    }
+    .section2__rite-list,
+    .section2-btn {
+        width: 90%;
+    }
+
+    .section2__rite-list li {
+        max-width: 100%;
+    }
+
+    .section2,
+    .section-result {
+        padding-top: 50px;
+        padding-bottom: 150px;
+    }
+
+    .rusult-text-wrapper {
+        margin-left: 0px;
+    }
+
+    .section-result-wrapper {
+        min-height: 772px;
+        background-image:
+            url(../images/bg-gerl-blecc-top.png),
+            url(../images/bg-gerl-botton.png),
+            url(../images/bg-gerl.png),
+            url(../images/bg-gerl2.png);
+
+
+        background-repeat:
+            no-repeat,
+            no-repeat,
+            no-repeat,
+            no-repeat;
+
+        background-size:
+            1940px 450px,
+            1940px 60px,
+            250px 300px,
+            500px 500px;
+
+
+        background-position:
+            right top,
+            right bottom,
+            right 510px,
+            80px 510px;
+
+    }
+
+    .swiper,
+    .slider-nav {
+        width: 80%;
+    }
+
+    .section-result-wrappers {
+        padding-bottom: 100px;
+        background-image: 
+        url(../images/bg-gerl-blecc-top.png), 
+        url(../images/bg-gerl-botton.png), 
+        url(../images/avtors-curs-img.png), 
+        url(../images/bg-gerl2.png);
+        background-repeat: 
+        no-repeat, 
+        no-repeat, 
+        no-repeat, 
+        no-repeat;
+        background-size: 
+            1940px 450px,
+            1940px 80px,
+            250px 300px,
+            500px 500px;
+        background-position: 
+            right top,
+            right bottom,
+            right 650px,
+            80px 610px;
+    }
+
+        .section-result {
+        padding-bottom: 50px;
+        }
 }
+
+
 
 
 .section-card-wrapper {
