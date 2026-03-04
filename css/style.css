@@ -128,17 +128,17 @@
 
 }
 
-/* .header__admin{
+.header__admin{
     width: 240px;
-    height: 41px;
-    background-image: url(../images/1.8.png);
+    height: 50px;
+    background-image: url(../images/btn.svg);
     border-radius:70px ;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-} */
+}
 
-.header__admin {
+/* .header__admin {
     box-sizing: border-box;
     font-family: 'Tilda Sans VF', Arial, sans-serif;
     font-weight: 600;
@@ -152,7 +152,7 @@
     width: 240px;
     height: 41px;
     background: var(--color-violet-62-100);
-}
+} */
 
 .header__admin.active {
     display: none;
@@ -563,15 +563,13 @@
     line-height: 49px;
     letter-spacing: 0%;
     text-transform: uppercase;
-    color: #FFFFFF;
-}
-
-.rusult-text-wrapper h3 span{
     color:#9A0104 ;
 }
 
+
 .result-item{
     margin-top: 50px !important;
+    max-width: 400px;
     /* margin-bottom: 50px !important; */
 }
 
@@ -775,15 +773,27 @@
     url(../images/bg-gerl-botton.png), 
     url(../images/avtors-curs-img.png), 
     url(../images/bg-gerl2.png);
-    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
-    background-size: 1940px 450px, 1940px 540px, 685px 772px, 771px 1045px;
-    background-position: right top, right bottom, right top, right top;
+    background-repeat: 
+    no-repeat, 
+    no-repeat, 
+    no-repeat, 
+    no-repeat;
+    background-size: 
+    1940px 150px, 
+    1940px 340px, 
+    700px 800px, 
+    771px 1045px;
+    background-position:
+     right top, 
+     right bottom,
+      right top, 
+      right top;
 }
 
 .t396__carrier.t-bgimg img {
     position: absolute;
-    right: 0;
-    top: 40% !important;
+    right: 8%;
+    top: 30% !important;
     transform: translateY(-50%);
     max-width: 50%;
     height: auto;
@@ -807,7 +817,7 @@
 
 
 .title-2 {
-    color: #fff;
+    color: #fff !important;
     font-weight: 900;
     font-size: 63px;
     font-family: "Jost", sans-serif;
