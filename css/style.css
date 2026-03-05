@@ -138,22 +138,6 @@
     background-size: cover;
 }
 
-/* .header__admin {
-    box-sizing: border-box;
-    font-family: 'Tilda Sans VF', Arial, sans-serif;
-    font-weight: 600;
-    font-size: 14px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #FFFFFF !important;
-    border: 1px solid #FFFFFF;
-    border-radius: 70px;
-    width: 240px;
-    height: 41px;
-    background: var(--color-violet-62-100);
-} */
-
 .header__admin.active {
     display: none;
 }
@@ -336,12 +320,6 @@
         top: 5% !important;
     }
 
-    /* .header__logo {
-        width: 30px;
-        height: 30px;
-        object-fit: contain;
-    } */
-
     .header__hamburger {
         display: block;
         border: none;
@@ -371,11 +349,10 @@
 
 }
 
-/* #rec744024512 .t396__artboard {
-    min-height: 620px;
-    height: 95vh;
-    background-color: hsl(0, 81%, 46%);
-} */
+#rec744024512 .tn-elem[data-elem-id="1683284999041"] .tn-atom{
+    position: relative !important;
+    z-index: 100 !important;
+}
 
 .section-text{
     text-transform: uppercase !important;
@@ -781,25 +758,51 @@
     background-size: 
     1940px 150px, 
     1940px 340px, 
-    700px 800px, 
+    900px 800px, 
     771px 1045px;
     background-position:
-     right top, 
-     right bottom,
-      right top, 
-      right top;
+    right top, 
+    right bottom,
+    right top, 
+    right top;
+}
+
+.rusult-text-wrapper{
+    margin-left: 1px !important;
+}
+
+.rusult-text-wrapper h3 {
+    font-family: "Jost", sans-serif;
+    font-weight: 900;
+    font-size: 52px;
+    line-height: 64px;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    /* color: #9A0104; */
+    color: #ff1a1a !important;
+}
+
+.result-item li {
+    font-size: 16px !important;
+    font-weight: 500 !important;
 }
 
 .t396__carrier.t-bgimg img {
     position: absolute;
-    right: 8%;
+    right: 0;
     top: 30% !important;
     transform: translateY(-50%);
     max-width: 50%;
     height: auto;
     z-index: 1;
 }
+.t396__artboard{
+    background-color: black !important;
+}
 
+    #rec744024512 .t396__carrier {
+        left: -8% !important;
+    }
 
 #rec746839881 .tn-elem[data-elem-id="1707753969903"] {
     top: 0 !important;
@@ -823,6 +826,11 @@
     font-family: "Jost", sans-serif;
     vertical-align: middle;
     line-height: 63px;
+}
+
+.span-name{
+    font-size: 20px !important;
+    font-weight: 700 !important;
 }
 
 .title-4 {
@@ -865,6 +873,29 @@
 }
 
 @media (max-width: 640px) {
+
+    #rec744024512 .t396__filter {
+        padding-bottom: 200px;
+    }
+
+    #rec744024512 .t396__artboard {
+        min-height: 620px !important;
+        height: 850px !important;
+    }
+
+    #rec744024512 .t396__carrier {
+        top: 40%;
+    }
+
+    .t396__carrier.t-bgimg img {
+        right: -10%;
+        max-width: 80%;
+    }
+
+    .t959 {
+        margin-top: 0 !important;
+    }
+
     .prepay-link {
         text-align: center;
         margin-top: 8px;
