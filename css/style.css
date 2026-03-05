@@ -1095,6 +1095,34 @@
     color: #ff1a1a;
 }
 
+
+/* Chrome / Edge / Safari */
+::-webkit-scrollbar {
+    width: 16px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(34, 32, 32);
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, #5a0d0d, #ac2626);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(180deg, #2f0303, #731616);
+}
+
+@-moz-document url-prefix() {
+    html {
+        scrollbar-width: auto !important;
+        scrollbar-color: #5a0d0d rgb(34, 32, 32);
+        cursor: pointer;
+    }
+}
+
 @media(max-width:1055px) {
     .card-content-box {
         display: flex;
