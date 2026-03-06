@@ -1,10 +1,7 @@
-
 // const swiper1 = new Swiper('.swiper1', {
-//     slidesPerView: 3,
-//     slidesPerGroup: 3,
 //     loop: true,
-//     spaceBetween: 24,
 //     speed: 600,
+//     spaceBetween: 24,
 
 //     navigation: {
 //         nextEl: '.slider-arrow--next',
@@ -20,7 +17,19 @@
 //             return `<span class="${className}"></span>`;
 //         },
 //     },
+
+//     breakpoints: {
+//         0: {
+//             slidesPerView: 1,
+//             slidesPerGroup: 1,
+//         },
+//         641: {
+//             slidesPerView: 3,
+//             slidesPerGroup: 3,
+//         },
+//     },
 // });
+
 
 const swiper1 = new Swiper('.swiper1', {
     loop: true,
@@ -38,6 +47,7 @@ const swiper1 = new Swiper('.swiper1', {
         bulletClass: 'slider-dot',
         bulletActiveClass: 'is-active',
         renderBullet: function (index, className) {
+            if (window.innerWidth <= 640 && index > 2) return ''; 
             return `<span class="${className}"></span>`;
         },
     },
