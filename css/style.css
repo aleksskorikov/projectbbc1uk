@@ -349,6 +349,20 @@
 
 }
 
+.section-name{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    width: 500px;
+    height: 120px;
+    margin-left: -12px;
+}
+
+.section-name img{
+    height: 100%;
+}
+
 #rec744024512 .tn-elem[data-elem-id="1683284999041"] .tn-atom{
     position: relative !important;
     z-index: 100 !important;
