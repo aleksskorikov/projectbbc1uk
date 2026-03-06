@@ -517,7 +517,7 @@
     background-image: 
     url(../images/bg-gerl-blecc-top.png),
     url(../images/bg-gerl-botton.png),
-    url(../images/bg-gerl.png),
+    url(../images/images.webp/2.2.webp),
     url(../images/bg-gerl2.png);
     
 
@@ -626,27 +626,23 @@
 
 
 .bg-image1{
-    background-image: url(../images/img1.png);
+    background-image: url(../images/images.webp/4.1.webp);
 }
 .bg-image2 {
-    background-image: url(../images/img2.png);
+    background-image: url(../images/images.webp/4.2.webp);
 }
 .bg-image3 {
-    background-image: url(../images/img3.png);
+    background-image: url(../images/images.webp/4.3.webp);
 }
 .bg-image4 {
-    background-image: url(../images/img4.png);
+    background-image: url(../images/images.webp/4.4.webp);
 }
 .bg-image5 {
-    background-image: url(../images/img5.png);
+    background-image: url(../images/images.webp/4.5.webp);
 }
 .bg-image6 {
-    background-image: url(../images/img6.png);
+    background-image: url(../images/images.webp/4.6.webp);
 }
-
-/* .section-slider{
-    background-color: black;
-} */
 
 .swiper,
 .slider-nav{
@@ -762,7 +758,7 @@
     background-image: 
     url(../images/bg-gerl-blecc-top.png), 
     url(../images/bg-gerl-botton.png), 
-    url(../images/avtors-curs-img.png), 
+    url(../images/images.webp/2.3.webp), 
     url(../images/bg-gerl2.png);
     background-repeat: 
     no-repeat, 
@@ -772,12 +768,12 @@
     background-size: 
     1940px 150px, 
     1940px 340px, 
-    900px 800px, 
+    930px 1060px, 
     771px 1045px;
     background-position:
     right top, 
     right bottom,
-    right top, 
+    right -180px, 
     right top;
 }
 
