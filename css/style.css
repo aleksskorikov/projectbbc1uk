@@ -359,6 +359,11 @@
     margin-left: -12px;
 }
 
+#rec744024512 .tn-elem[data-elem-id="1676642949565"] .tn-atom,
+#rec744024512 .tn-elem[data-elem-id="1714840593752"] .tn-atom  {
+    font-size: 16px !important;
+}
+
 .section-name img{
     height: 100%;
 }
